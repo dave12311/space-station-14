@@ -46,8 +46,7 @@ namespace Content.Server.GameObjects.Components.Items
         {
             base.Initialize();
 
-            System.Collections.Generic.List<PosterPrototype> prototypes;
-            prototypes = _prototypeManager.EnumeratePrototypes<PosterPrototype>()
+            var prototypes = _prototypeManager.EnumeratePrototypes<PosterPrototype>()
                 .Where((_contraband ? p => p.Contraband : p => !p.Contraband))
                 .ToList();
             _prototype = _random.Pick(prototypes);

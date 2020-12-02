@@ -1,4 +1,6 @@
-﻿using Content.Server.GameObjects.Components.Interactable;
+﻿#nullable enable
+using Content.Server.GameObjects.Components.Interactable;
+using Content.Server.GameObjects.Components.Items;
 using Content.Server.GameObjects.Components.Items.Posters;
 using Content.Shared.Audio;
 using Content.Shared.GameObjects.Components.Interactable;
@@ -6,9 +8,15 @@ using Content.Shared.Interfaces;
 using Content.Shared.Interfaces.GameObjects.Components;
 using Robust.Server.GameObjects;
 using Robust.Server.GameObjects.EntitySystems;
+using Robust.Server.Interfaces.GameObjects;
 using Robust.Shared.GameObjects;
 using Robust.Shared.GameObjects.Systems;
+using Robust.Shared.IoC;
 using Robust.Shared.Localization;
+using Robust.Shared.Log;
+using Robust.Shared.Prototypes;
+using Robust.Shared.ViewVariables;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Content.Server.GameObjects.Components.Posters
@@ -18,12 +26,47 @@ namespace Content.Server.GameObjects.Components.Posters
     {
         public override string Name => "PosterPlaced";
 
+        [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+
         private bool _ripped = false;
+
+        private string? _currentPoster;
+
+        [ViewVariables(VVAccess.ReadWrite)]
+        public string? CurrentPoster
+        {
+            get => _currentPoster;
+            set
+            {
+                _currentPoster = value;
+                UpdatePoster();
+            }
+        }
 
         private const string RipSound = "/Audio/Items/poster_ripped.ogg";
         private const string RemoveSound = "/Audio/Items/wirecutter.ogg";
         private const float SoundVolume = -3F;
         private const float SoundVariation = 0.15F;
+
+        private void UpdatePoster()
+        {
+            if (_currentPoster == null) return;
+
+            if (!_prototypeManager.TryIndex(_currentPoster, out PosterPrototype prototype))
+            {
+                Logger.ErrorS("poster", $"Invalid poster prototype: \"{_currentPoster}\"");
+                return;
+            }
+
+            Owner.Name = prototype.Contraband ? Loc.GetString("contraband poster") : Loc.GetString("motivational poster")
+                + " - " + prototype.Name;
+            Owner.Description = prototype.Description;
+
+            if (Owner.TryGetComponent(out SpriteComponent? sprite))
+            {
+                sprite.LayerSetState(0, prototype.State);
+            }
+        }
 
         public void RipPoster()
         {

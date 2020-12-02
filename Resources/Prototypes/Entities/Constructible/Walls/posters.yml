@@ -1,5 +1,4 @@
 ﻿- type: entity
-  abstract: false
   parent: BaseItem
   id: PosterLegitRandom
   name: motivational poster
@@ -10,9 +9,9 @@
     state: rolled_poster_legit
   - type: Poster
     contraband: false
+  - type: ItemCooldown
 
 - type: entity
-  abstract: false
   parent: BaseItem
   id: PosterContrabandRandom
   name: contraband poster
@@ -23,3 +22,17 @@
     state: rolled_poster
   - type: Poster
     contraband: true
+  - type: ItemCooldown
+
+- type: entity
+  id: PosterPlaced
+  name: poster
+  description: 'This is an empty poster.'
+  components:
+  - type: Sprite
+    sprite: Constructible/Misc/posters.rsi
+    state: poster_ripped
+    drawdepth: Objects
+  - type: InteractionOutline
+  - type: Clickable
+  - type: PosterPlaced

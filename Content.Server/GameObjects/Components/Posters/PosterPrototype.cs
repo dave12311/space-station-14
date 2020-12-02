@@ -11,14 +11,14 @@ namespace Content.Server.GameObjects.Components.Items
         public string ID { get; private set; }
         public string Name { get; private set; }
         public string Description { get; private set; }
-        public string Image { get; private set; }
+        public string State { get; private set; }
         public bool Contraband { get; private set; }
 
         public void LoadFrom(YamlMappingNode mapping)
         {
             ID = mapping.GetNode("id").AsString();
             Name = Loc.GetString(mapping.GetNode("name").AsString());
-            Image = mapping.GetNode("image").AsString();
+            State = mapping.GetNode("state").AsString();
 
             if (mapping.TryGetNode("description", out var node))
             {

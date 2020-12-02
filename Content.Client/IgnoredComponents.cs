@@ -215,6 +215,9 @@
             "WelderRefinable",
             "ConveyorAssembly",
             "TwoWayLever",
+            "Poster",
+            "PosterPlaceable",
+            "PosterPlaced"
         };
     }
 }

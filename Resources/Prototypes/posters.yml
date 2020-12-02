@@ -3,252 +3,252 @@
   id: Safety
   name: "Here For Your Safety"
   description: "A poster glorifying the stations's security force."
-  image: poster1_legit
+  state: poster1_legit
   contraband: false
 
 - type: poster
   id: Nanotrasen
   name: "Nanotrasen Logo"
   description: "A poster depicting the Nanotrasen logo."
-  image: poster2_legit
+  state: poster2_legit
   contraband: false
 
 - type: poster
   id: Cleanliness
   name: "Cleanliness"
   description: "A poster warning of the dangers of poor hygiene."
-  image: poster3_legit
+  state: poster3_legit
   contraband: false
 
 - type: poster
   id: Help
   name: "Help Others"
   description: "A poster encouraging you to help fellow crewmembers."
-  image: poster4_legit
+  state: poster4_legit
   contraband: false
 
 - type: poster
   id: Build
   name: "Build"
   description: "A poster glorifying the engineering team."
-  image: poster5_legit
+  state: poster5_legit
   contraband: false
 
 - type: poster
   id: Bless
   name: "Bless This Spess"
   description: "A poster blessing this area."
-  image: poster6_legit
+  state: poster6_legit
   contraband: false
 
 - type: poster
   id: Science
   name: "Science"
   description: "A poster depicting an atom."
-  image: poster7_legit
+  state: poster7_legit
   contraband: false
 
 - type: poster
   id: Ian
   name: "Ian"
   description: "Arf arf. Yap."
-  image: poster8_legit
+  state: poster8_legit
   contraband: false
 
 - type: poster
   id: Obey
   name: "Obey"
   description: "A poster instructing the viewer to obey authority."
-  image: poster9_legit
+  state: poster9_legit
   contraband: false
 
 - type: poster
   id: Walk
   name: "Walk"
   description: "A poster instructing the viewer to walk instead of running."
-  image: poster10_legit
+  state: poster10_legit
   contraband: false
 
 - type: poster
   id: Laws
   name: "State Laws"
   description: "A poster instructing cyborgs to state their laws."
-  image: poster11_legit
+  state: poster11_legit
   contraband: false
 
 - type: poster
   id: Love
   name: "Love Ian"
   description: "Ian is love, Ian is life."
-  image: poster12_legit
+  state: poster12_legit
   contraband: false
 
 - type: poster
   id: Cops
   name: "Space Cops"
   description: "A poster advertising the television show Space Cops."
-  image: poster13_legit
+  state: poster13_legit
   contraband: false
 
 - type: poster
   id: Ue
   name: "Ue No"
   description: "This thing is all in Japanese."
-  image: poster14_legit
+  state: poster14_legit
   contraband: false
 
 - type: poster
   id: Legs
   name: "Get Your LEGS"
   description: "LEGS: Leadership, Experience, Genius, Subordination."
-  image: poster15_legit
+  state: poster15_legit
   contraband: false
 
 - type: poster
   id: Question
   name: "Do Not Question"
   description: "A poster instructing the viewer not to ask about things they aren't meant to know."
-  image: poster16_legit
+  state: poster16_legit
   contraband: false
 
 - type: poster
   id: Work
   name: "Work For A Future"
   description: "A poster encouraging you to work for your future."
-  image: poster17_legit
+  state: poster17_legit
   contraband: false
 
 - type: poster
   id: Artpop
   name: "Soft Cap Pop Art"
   description: "A poster reprint of some cheap pop art."
-  image: poster18_legit
+  state: poster18_legit
   contraband: false
 
 - type: poster
   id: Internals
   name: "Safety: Internals"
   description: "A poster instructing the viewer to wear internals in the rare environments where there is no oxygen or the air has been rendered toxic."
-  image: poster19_legit
+  state: poster19_legit
   contraband: false
 
 - type: poster
   id: Eye
   name: "Safety: Eye Protection"
   description: "A poster instructing the viewer to wear eye protection when dealing with chemicals, smoke, or bright lights."
-  image: poster20_legit
+  state: poster20_legit
   contraband: false
 
 - type: poster
   id: Report
   name: "Safety: Report"
   description: "A poster instructing the viewer to report suspicious activity to the security force."
-  image: poster21_legit
+  state: poster21_legit
   contraband: false
 
 - type: poster
   id: Crimes
   name: "Report Crimes"
   description: "A poster encouraging the swift reporting of crime or seditious behavior to station security."
-  image: poster22_legit
+  state: poster22_legit
   contraband: false
 
 - type: poster
   id: Rifle
   name: "Ion Rifle"
   description: "A poster displaying an Ion Rifle."
-  image: poster23_legit
+  state: poster23_legit
   contraband: false
 
 - type: poster
   id: Foam
   name: "Foam Force Ad"
   description: "Foam Force, it's Foam or be Foamed!"
-  image: poster24_legit
+  state: poster24_legit
   contraband: false
 
 - type: poster
   id: Cohiba
   name: "Cohiba Robusto Ad"
   description: "Cohiba Robusto, the classy cigar."
-  image: poster25_legit
+  state: poster25_legit
   contraband: false
 
 - type: poster
   id: Anniversary
   name: "50th Anniversary Vintage Reprint"
   description: "A reprint of a poster from 2505, commemorating the 50th Aniversery of Nanoposters Manufacturing, a subsidary of Nanotrasen."
-  image: poster26_legit
+  state: poster26_legit
   contraband: false
 
 - type: poster
   id: Fruit
   name: "Fruit Bowl"
   description: "Simple, yet awe-inspiring."
-  image: poster27_legit
+  state: poster27_legit
   contraband: false
 
 - type: poster
   id: Pda
   name: "PDA Ad"
   description: "A poster advertising the latest PDA from Nanotrasen suppliers."
-  image: poster28_legit
+  state: poster28_legit
   contraband: false
 
 - type: poster
   id: Enlist
   name: "Enlist"
   description: "Enlist in the Nanotrasen Deathsquadron reserves today!"
-  image: poster29_legit
+  state: poster29_legit
   contraband: false
 
 - type: poster
   id: Nanomichi
   name: "Nanomichi Ad"
   description: "A poster advertising Nanomichi brand audio cassettes."
-  image: poster30_legit
+  state: poster30_legit
   contraband: false
 
 - type: poster
   id: Gauge
   name: "12 Gauge"
   description: "A poster boasting about the superiority of 12 gauge shotgun shells."
-  image: poster31_legit
+  state: poster31_legit
   contraband: false
 
 - type: poster
   id: Martini
   name: "High-Class Martini"
   description: "I told you to shake it, no stirring."
-  image: poster32_legit
+  state: poster32_legit
   contraband: false
 
 - type: poster
   id: Owl
   name: "The Owl"
   description: "The Owl would do his best to protect the station. Will you?"
-  image: poster33_legit
+  state: poster33_legit
   contraband: false
 
 - type: poster
   id: Erp
   name: "No ERP"
   description: "This poster reminds the crew that Eroticism, Rape and Pornography are banned on Nanotrasen stations."
-  image: poster34_legit
+  state: poster34_legit
   contraband: false
 
 - type: poster
   id: Carbon
   name: "Carbon Dioxide"
   description: "This informational poster teaches the viewer what carbon dioxide is."
-  image: poster35_legit
+  state: poster35_legit
   contraband: false
 
 - type: poster
   id: Calm
   name: "Keep Calm"
   description: "This poster reminds employees to not panic in the unlikely event of an emergency."
-  image: poster36_legit
+  state: poster36_legit
   contraband: false
 
 # Contraband posters
@@ -256,250 +256,250 @@
   id: Tonto
   name: "Free Tonto"
   description: "A salvaged shred of a much larger flag, colors bled together and faded from age."
-  image: poster1
+  state: poster1
   contraband: true
 
 - type: poster
   id: Atmosia
   name: "Atmosia Declaration of Independence"
   description: "A relic of a failed rebellion."
-  image: poster2
+  state: poster2
   contraband: true
 
 - type: poster
   id: Police
   name: "Fun Police"
   description: "A poster condemning the station's security forces."
-  image: poster3
+  state: poster3
   contraband: true
 
 - type: poster
   id: Lusty
   name: "Lusty Xenomorph"
   description: "A heretical poster depicting the titular star of an equally heretical book."
-  image: poster4
+  state: poster4
   contraband: true
 
 - type: poster
   id: Syndicate
   name: "Syndicate Recruitment"
   description: "See the galaxy! Shatter corrupt megacorporations! Join today!"
-  image: poster5
+  state: poster5
   contraband: true
 
 - type: poster
   id: Clown
   name: "Clown"
   description: "Honk."
-  image: poster6
+  state: poster6
   contraband: true
 
 - type: poster
   id: Smoke
   name: "Smoke"
   description: "A poster advertising a rival corporate brand of cigarettes."
-  image: poster7
+  state: poster7
   contraband: true
 
 - type: poster
   id: Tide
   name: "Grey Tide"
   description: "A rebellious poster symbolizing assistant solidarity."
-  image: poster8
+  state: poster8
   contraband: true
 
 - type: poster
   id: Gloves
   name: "Missing Gloves"
   description: "This poster references the uproar that followed Nanotrasen's financial cuts toward insulated-glove purchases."
-  image: poster9
+  state: poster9
   contraband: true
 
 - type: poster
   id: Hacking
   name: "Hacking Guide"
   description: "This poster details the internal workings of the common Nanotrasen airlock. Sadly, it appears out of date."
-  image: poster10
+  state: poster10
   contraband: true
 
 - type: poster
   id: Badger
   name: "RIP Badger"
   description: "This seditious poster references Nanotrasen's genocide of a space station full of badgers."
-  image: poster11
+  state: poster11
   contraband: true
 
 - type: poster
   id: Ambrosia
   name: "Ambrosia Vulgaris"
   description: "This poster is lookin' pretty trippy man."
-  image: poster12
+  state: poster12
   contraband: true
 
 - type: poster
   id: Donut
   name: "Donut Corp."
   description: "This poster is an unauthorized advertisement for Donut Corp."
-  image: poster13
+  state: poster13
   contraband: true
 
 - type: poster
   id: Eat
   name: "EAT."
   description: "This poster promotes rank gluttony."
-  image: poster14
+  state: poster14
   contraband: true
 
 - type: poster
   id: Tools
   name: "Tools"
   description: "This poster looks like an advertisement for tools, but is in fact a subliminal jab at the tools at CentCom."
-  image: poster15
+  state: poster15
   contraband: true
 
 - type: poster
   id: Power
   name: "Power"
   description: "A poster that positions the seat of power outside Nanotrasen."
-  image: poster16
+  state: poster16
   contraband: true
 
 - type: poster
   id: Cube
   name: "Space Cube"
   description: "Ignorant of Nature's Harmonic 6 Side Space Cube Creation, the Spacemen are Dumb, Educated Singularity Stupid and Evil."
-  image: poster17
+  state: poster17
   contraband: true
 
 - type: poster
   id: Communism
   name: "Communist State"
   description: "All hail the Communist party!"
-  image: poster18
+  state: poster18
   contraband: true
 
 - type: poster
   id: Lamarr
   name: "Lamarr"
   description: "This poster depicts Lamarr. Probably made by a traitorous Research Director."
-  image: poster19
+  state: poster19
   contraband: true
 
 - type: poster
   id: Fancy
   name: "Borg Fancy"
   description: "Being fancy can be for any borg, just need a suit."
-  image: poster20
+  state: poster20
   contraband: true
 
 - type: poster
   id: Fancier
   name: "Borg Fancy v2"
   description: "Borg Fancy, Now only taking the most fancy."
-  image: poster21
+  state: poster21
   contraband: true
 
 - type: poster
   id: Nonexistent
   name: "Kosmicheskaya Stantsiya 13 Does Not Exist"
   description: "A poster mocking CentCom's denial of the existence of the derelict station near Space Station 13."
-  image: poster22
+  state: poster22
   contraband: true
 
 - type: poster
   id: Rebels
   name: "Rebels Unite"
   description: "A poster urging the viewer to rebel against Nanotrasen."
-  image: poster23
+  state: poster23
   contraband: true
 
 - type: poster
   id: Arms
   name: "C-20r"
   description: "A poster advertising the Scarborough Arms C-20r."
-  image: poster24
+  state: poster24
   contraband: true
 
 - type: poster
   id: Puff
   name: "Have a Puff"
   description: "Who cares about lung cancer when you're high as a kite?"
-  image: poster25
+  state: poster25
   contraband: true
 
 - type: poster
   id: Revolver
   name: "Revolver"
   description: "Because seven shots are all you need."
-  image: poster26
+  state: poster26
   contraband: true
 
 - type: poster
   id: Dday
   name: "D-Day Promo"
   description: "A promotional poster for some rapper."
-  image: poster27
+  state: poster27
   contraband: true
 
 - type: poster
   id: Pistol
   name: "Syndicate Pistol"
   description: "A poster advertising syndicate pistols as being 'classy as fuck'. It is covered in faded gang tags."
-  image: poster28
+  state: poster28
   contraband: true
 
 - type: poster
   id: Swords
   name: "Energy Swords"
   description: "All the colors of the bloody murder rainbow."
-  image: poster29
+  state: poster29
   contraband: true
 
 - type: poster
   id: Rum
   name: "Red Rum"
   description: "Looking at this poster makes you want to kill."
-  image: poster30
+  state: poster30
   contraband: true
 
 - type: poster
   id: Computing
   name: "CC 64K Ad"
   description: "The latest portable computer from Comrade Computing, with a whole 64kB of ram!"
-  image: poster31
+  state: poster31
   contraband: true
 
 - type: poster
   id: Punch
   name: "Punch Shit"
   description: "Fight things for no reason, like a man!"
-  image: poster32
+  state: poster32
   contraband: true
 
 - type: poster
   id: Griffin
   name: "The Griffin"
   description: "The Griffin commands you to be the worst you can be. Will you?"
-  image: poster33
+  state: poster33
   contraband: true
 
 - type: poster
   id: Lizard
   name: "Lizard"
   description: "This lewd poster depicts a lizard preparing to mate."
-  image: poster34
+  state: poster34
   contraband: true
 
 - type: poster
   id: Drone
   name: "Free Drone"
   description: "This poster commemorates the bravery of the rogue drone banned by CentCom."
-  image: poster35
+  state: poster35
   contraband: true
 
 - type: poster
   id: Babes
   name: "Busty Backdoor Xeno Babes 6"
   description: "Get a load, or give, of these all natural Xenos!"
-  image: poster36
+  state: poster36
   contraband: true
